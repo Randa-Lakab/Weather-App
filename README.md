@@ -32,6 +32,7 @@ Copier le code
  ```bash
 tsc script.ts
   ```
-
+## Screenshot
+![Weather App Screenshot](./weather app.png)
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the @MIT License.
