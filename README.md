@@ -33,6 +33,7 @@ Copier le code
 tsc script.ts
   ```
 ## Screenshot
-![Weather App Screenshot](./weather app.png)
+![Weather App Screenshot](https://raw.githubusercontent.com/randa-lakab/Weather-App/main/weather app.png)
+
 ## License
-This project is open-source and available under the @MIT License.
+This project is open-source and available under the MIT License.
