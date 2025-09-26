@@ -14,7 +14,7 @@ const cityInput = document.getElementById("city") as HTMLInputElement;
 const resultDiv = document.getElementById("result") as HTMLDivElement;
 
 function showLoading() {
-  resultDiv.innerHTML = "<p>⏳ Chargement...</p>";
+  resultDiv.innerHTML = "<p> Chargement...</p>";
 }
 
 function showError(msg: string) {
