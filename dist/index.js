@@ -8,14 +8,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-// 👉 Mets ta clé API ici (tu dois créer un compte gratuit sur openweathermap.org)
+
 const apiKey = "bc86a50f4cc66c9276aea2f9b4b6ffa8";
 // Sélection des éléments du DOM
 const searchBtn = document.getElementById("search");
 const cityInput = document.getElementById("city");
 const resultDiv = document.getElementById("result");
 function showLoading() {
-    resultDiv.innerHTML = "<p>⏳ Chargement...</p>";
+    resultDiv.innerHTML = "<p> Chargement...</p>";
 }
 function showError(msg) {
     resultDiv.innerHTML = `<p style="color:red;">${msg}</p>`;
@@ -41,7 +41,7 @@ function getWeather(city) {
             showLoading();
             const res = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=fr`);
             if (!res.ok)
-                throw new Error("Ville introuvable ❌");
+                throw new Error("Ville introuvable !");
             const data = yield res.json();
             render(data);
         }
@@ -50,11 +50,11 @@ function getWeather(city) {
         }
     });
 }
-// 👉 Attacher l'événement au bouton
+//  Attacher l'événement au bouton
 searchBtn.addEventListener("click", () => {
     const city = cityInput.value.trim();
     if (!city) {
-        showError("⚠️ Veuillez entrer une ville !");
+        showError(" Veuillez entrer une ville !");
         return;
     }
     getWeather(city);
