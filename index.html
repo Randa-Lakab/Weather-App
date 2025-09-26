@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+  <title>Weather App - TypeScript</title> 
+  <link rel="stylesheet" href="style.css" /> 
+</head> 
+<body> 
+  <div class="app"> 
+    <h1>🌤 Weather App</h1> 
+    <div class="search"> 
+      <input id="city" type="text" placeholder="Entrez une ville (ex: Algiers)" /> 
+      <button id="search">Rechercher</button> 
+    </div> 
+    <div id="result"></div> 
+  </div> 
+ 
+  <!-- le JS compilé depuis TypeScript -->
+  <script type="module" src="./dist/index.js"></script>
+</body> 
+</html>
