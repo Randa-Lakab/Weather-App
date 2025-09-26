@@ -1,4 +1,3 @@
-// 👉 Mets ta clé API ici (tu dois créer un compte gratuit sur openweathermap.org)
 const apiKey: string = "bc86a50f4cc66c9276aea2f9b4b6ffa8";
 
 interface WeatherAPIResponse {
@@ -47,7 +46,7 @@ async function getWeather(city: string) {
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=fr`
     );
 
-    if (!res.ok) throw new Error("Ville introuvable ❌");
+    if (!res.ok) throw new Error("Ville introuvable !");
 
     const data: WeatherAPIResponse = await res.json();
     render(data);
@@ -56,11 +55,11 @@ async function getWeather(city: string) {
   }
 }
 
-// 👉 Attacher l'événement au bouton
+//  Attacher l'événement au bouton
 searchBtn.addEventListener("click", () => {
   const city = cityInput.value.trim();
   if (!city) {
-    showError("⚠️ Veuillez entrer une ville !");
+    showError(" Veuillez entrer une ville !");
     return;
   }
   getWeather(city);
