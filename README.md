@@ -32,8 +32,6 @@ Weather-App/ ├── index.html ├── style.css ├── script.ts   # Ty
  ```bash
 tsc script.ts
   ```
-## Screenshot
-![Weather App Screenshot](https://raw.githubusercontent.com/randa-lakab/Weather-App/main/weatherapp.png)
 
 ## License
 This project is open-source and available under the MIT License.
