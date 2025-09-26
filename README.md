@@ -19,7 +19,7 @@ A simple and responsive weather web application built with HTML, CSS, and TypeSc
 ##  Project Structure
 
 Weather-App/ ├── index.html ├── style.css ├── script.ts   # TypeScript source ├── script.js   # Compiled JavaScript └── README.md
-Copier le code
+
 
 ##  How to Run Locally
 1. Clone the repository:
@@ -33,7 +33,7 @@ Copier le code
 tsc script.ts
   ```
 ## Screenshot
-![Weather App Screenshot](https://raw.githubusercontent.com/randa-lakab/Weather-App/main/weather app.png)
+![Weather App Screenshot](https://raw.githubusercontent.com/randa-lakab/Weather-App/main/weatherapp.png)
 
 ## License
 This project is open-source and available under the MIT License.
