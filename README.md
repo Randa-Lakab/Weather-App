@@ -11,7 +11,7 @@ A simple and responsive weather web application built with HTML, CSS, and TypeSc
 -  Responsive design for mobile and desktop  
 -  Built with TypeScript for better code quality  
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - HTML5
 - CSS3
 - TypeScript
