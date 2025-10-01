@@ -1,28 +1,28 @@
-#  Weather App
+##  Weather App
 
 A simple and responsive weather web application built with HTML, CSS, and TypeScript, using a weather API to display real-time weather information for any city in the world.  
 
-## 🚀 Live Demo
+### 🚀 Live Demo
  [Try it here](https://randa-lakab.github.io/Weather-App/)
 
-##  Features
+###  Features
 -  Search weather by city name  
 -  Display temperature, humidity, and conditions
 -  Responsive design for mobile and desktop  
 -  Built with TypeScript for better code quality  
 
-##  Tech Stack
+###  Tech Stack
 - HTML5
 - CSS3
 - TypeScript
 - OpenWeather API (or your chosen API)
 
-##  Project Structure
+###  Project Structure
 
 Weather-App/ ├── index.html ├── style.css ├── script.ts   # TypeScript source ├── script.js   # Compiled JavaScript └── README.md
 
 
-##  How to Run Locally
+###  How to Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/randa-lakab/Weather-App.git
@@ -34,5 +34,5 @@ Weather-App/ ├── index.html ├── style.css ├── script.ts   # Ty
 tsc script.ts
   ```
 
-## License
+### License
 This project is open-source and available under the MIT License.
