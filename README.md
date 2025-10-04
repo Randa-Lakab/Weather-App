@@ -35,4 +35,5 @@ tsc script.ts
   ```
 
 ### License
-This project is open-source and available under the MIT License.
+This project is licensed under the [MIT License](./LICENSE) © 2025 Randa Lakab.  
+You are free to use, modify, and distribute this project with proper attribution.
