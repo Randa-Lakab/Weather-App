@@ -8,7 +8,7 @@ A simple and responsive weather web application built with HTML, CSS, and TypeSc
 ###  Features
 -  Search weather by city name 
 -  Display temperature, humidity, and conditions
--  Responsive design for mobile and desktop 
+-  Responsive design for mobile and desktop. 
 -  Built with TypeScript for better code quality.  
 
 ###  Tech Stack
