@@ -22,7 +22,7 @@ A simple and responsive weather web application built with HTML, CSS, and TypeSc
 Weather-App/ ├── index.html ├── style.css ├── script.ts   # TypeScript source ├── script.js   # Compiled JavaScript └── README.md
 
 
-###  How to Run Locally
+####  How to Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/randa-lakab/Weather-App.git
