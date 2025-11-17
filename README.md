@@ -2,7 +2,7 @@
 
 A simple and responsive weather web application built with HTML, CSS, and TypeScript, using a weather API to display real-time weather information for any city in the world.  
 
-### 🚀 Live Demo
+#### 🚀 Live Demo
  [Try it here](https://randa-lakab.github.io/Weather-App/)
 
 ###  Features
