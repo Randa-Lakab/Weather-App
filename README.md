@@ -34,6 +34,6 @@ Weather-App/ ├── index.html ├── style.css ├── script.ts   # Ty
 tsc script.ts
   ```
 
-### License
+#### License
 This project is licensed under the [MIT License](./LICENSE) © 2025 Randa Lakab.  
 You are free to use, modify, and distribute this project with proper attribution.
