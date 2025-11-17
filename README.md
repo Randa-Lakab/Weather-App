@@ -5,7 +5,7 @@ A simple and responsive weather web application built with HTML, CSS, and TypeSc
 #### 🚀 Live Demo
  [Try it here](https://randa-lakab.github.io/Weather-App/)
 
-###  Features
+####  Features
 -  Search weather by city name. 
 -  Display temperature, humidity, and conditions.
 -  Responsive design for mobile and desktop. 
