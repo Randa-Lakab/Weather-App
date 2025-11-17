@@ -17,7 +17,7 @@ A simple and responsive weather web application built with HTML, CSS, and TypeSc
 - TypeScript
 - OpenWeather API (or your chosen API)
 
-###  Project Structure
+####  Project Structure
 
 Weather-App/ ├── index.html ├── style.css ├── script.ts   # TypeScript source ├── script.js   # Compiled JavaScript └── README.md
 
